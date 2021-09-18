@@ -8,6 +8,77 @@
 </head>
 <body>
     <h1>Tablas</h1>
-    <h2>probando esta vuelta</h2>
+    <!--Estructura    -->
+    <!-- table-->
+    <!--tr => table roww = fila-->
+    <!-- td => table data = celda-->
+    
+    <table border="1">
+        <tr>
+            <td>dato 1</td>
+            <td>dato 2</td>
+            <td>dato3</td>
+        </tr>
+        <tr>
+            <td>dato 4</td>
+            <td>dato 5</td>
+            <td>dato 6</td>
+        </tr>
+
+    </table>
+
+        
+    <table border="1">
+        <caption>Titulo</caption>
+        <thead>
+            <tr>
+                <th>dato 1</th>
+                <th>dato 2</th>
+                <th>dato 3</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>dato 1</td>
+            <td>dato 2</td>
+            <td>dato 3</td>
+        </tr>
+        <tr>
+            <td>dato 4</td>
+            <td>dato 5</td>
+            <td>dato 6</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Totales</td>
+                <td>6</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!--Agrupación de celdas-->
+    <!-- rowspan ocupar mas de una fila-->
+    <!-- colspan ocupar mas de un columna-->
+
+    <h1>Agrupación de celdas</h1>
+
+    <table border="1">
+        <tr>
+            <td>dato 1</td>
+            <td>dato 2</td>
+            <td>dato3</td>
+        </tr>
+        <tr>
+            <td rowspan ="2">dato 4</td>
+            <td colspan="2">dato 5</td>            
+        </tr>
+        <tr>
+          
+            <td>dato 5</td>
+            <td>dato 6</td>
+        </tr>
+
+    </table>
 </body>
 </html>
